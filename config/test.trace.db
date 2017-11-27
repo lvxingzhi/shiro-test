@@ -1,0 +1,15 @@
+2017-11-09 16:46:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE user(name VARCHAR(1024),pwd VARCHAR(1024),status VARCHAR(1024),PRIMARY KEY(name)) [42101-196]
+2017-11-09 16:47:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" already exists; SQL statement:
+CREATE TABLE user(name VARCHAR(1024),pwd VARCHAR(1024),status VARCHAR(1024),PRIMARY KEY(name)) [42101-196]
+2017-11-09 16:49:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" already exists; SQL statement:
+CREATE TABLE users(name VARCHAR(1024),pwd VARCHAR(1024),status VARCHAR(1024),PRIMARY KEY(name)) [42101-196]
+2017-11-09 16:54:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" already exists; SQL statement:
+CREATE TABLE users(name VARCHAR(1024),pwd VARCHAR(1024),status VARCHAR(1024),PRIMARY KEY(name)) [42101-196]
+2017-11-09 16:54:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" already exists; SQL statement:
+CREATE TABLE users(name VARCHAR(1024),pwd VARCHAR(1024),status VARCHAR(1024),PRIMARY KEY(name)) [42101-196]

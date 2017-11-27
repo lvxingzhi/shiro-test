@@ -1,0 +1,35 @@
+H2数据库相关类
+ConnectionPool
+DbDao
+
+Realm相关用例
+Test_simple
+Test_realm
+Test_realms
+Test_h2
+
+验证策略相关用例
+Test_All_realm
+
+自定义策略类
+MyAuthenticator
+
+校验角色与资源相关用例
+Test_role
+
+两种初始化方式
+Test_JavaMode
+
+加密方式
+Test_encrypt
+
+
+=========================
+1,Test_simple: 简单的API使用
+2,Test_realm: 自定义Realm
+3,Test_realms: 自定义多个Realm
+4,Test_All_realm: 多个Realm的校验策略
+5,Test_h2: 通过数据库获取数据来源Realm
+6,Test_JavaMode: java编码方式实现shiro初始化
+7,Test_role: 角色校验
+8,Test_encrypt: 加密扩展
